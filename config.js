@@ -3,13 +3,15 @@ const environments = {};
 
 // Default
 environments.staging = {
-  port: 3000,
+  portHTTP: 3000,
+  portHTTPS: 3001,
   name: "staging",
 };
 
 
 environments.production = {
-  port: 5000,
+  portHTTP: 5000,
+  portHTTPS: 5001,
   name: "prod",
 };
 
